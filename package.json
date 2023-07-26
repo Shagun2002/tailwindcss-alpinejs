@@ -1,0 +1,15 @@
+{
+  "main": "tailwind.config.js",
+  "scripts": {
+    "tailwind": "npx tailwindcss -i ./src/input.css -o ./dist/css/style.css --watch",
+    "prettier": "npx prettier --write ./dist/*.html"
+  },
+  "devDependencies": {
+    "prettier-plugin-tailwindcss": "^0.4.0"
+  },
+  "dependencies": {
+    "alpinejs": "^3.12.3",
+    "install": "^0.13.0",
+    "npm": "^9.8.0"
+  }
+}
